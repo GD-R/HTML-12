@@ -231,3 +231,170 @@ footer .social {
 .link p {
     font-size: 0.7rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    
+    img[src="./images/logo.png"] {
+       width: 6rem;
+    }
+    .right-nav {
+        display: none;
+    }
+
+    
+    nav + section {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img[src="./images/business.jpg"] {
+        width: 90vw;
+    }
+
+    .left-head {
+        align-self: center;
+    }
+
+    .right-head h1 {
+        font-size: 1.5rem;
+    }
+
+    .right-head p {
+        font-size: 1rem;
+    }
+
+    .target {
+        width: 100vw;
+    }
+
+
+    img[src="./images/meeting.jpg"] {
+        width: 85vw;
+        
+    }
+
+    .service .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .team-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .members {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    img[src="./images/logo.png"] {
+        width: 6rem;
+     }
+
+     .mobile-bar {
+        display: none;
+     }
+
+     nav {
+        display: flex;
+        gap: 1rem;
+     }
+
+     nav + section {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img[src="./images/business.jpg"] {
+        width: 90vw;
+    }
+
+    .left-head {
+        align-self: center;
+    }
+
+    .right-head h1 {
+        font-size: 1.5rem;
+    }
+
+    .right-head p {
+        font-size: 1rem;
+    }
+
+
+    .target {
+        width: 100vw;
+    }
+
+
+    img[src="./images/meeting.jpg"] {
+        width: 85vw;
+        
+    }
+
+
+    .service .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .team-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+    .members {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .mobile-bar {
+        display: none;
+     }
+}
